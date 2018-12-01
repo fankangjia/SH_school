@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-10-27 16:35:57 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="test.POJO.Rongzi" table="rongzi_type">
+        <id name="RongziID" type="int">
+            <column name="RongziID" />
+            <generator class="native" />
+        </id>
+        <property name="RongziName" type="java.lang.String">
+            <column name="RongziName" />
+        </property>
+        <property name="status" type="java.lang.String">
+            <column name="status" />
+        </property>
+    </class>
+</hibernate-mapping>
